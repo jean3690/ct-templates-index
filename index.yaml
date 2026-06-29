@@ -1,0 +1,48 @@
+# ct-cli Template Index
+# To submit your template, add an entry and open a PR:
+#   https://github.com/jean3690/ct-templates-index
+#
+# Fields:
+#   name        — unique template name (required)
+#   description — short description (required)
+#   languages   — programming language(s) (required)
+#   url         — git repository URL (required)
+#   version     — latest known version (optional)
+#   author      — template author (optional)
+#   tags        — keywords for search (optional)
+
+templates:
+  - name: go-service
+    description: "Go microservice with chi router, structured logging, and config"
+    languages: [go]
+    url: https://github.com/jean3690/go-service-template
+    version: "0.1.0"
+    author: jean3690
+    tags: [go, microservice, api, chi]
+
+  - name: go-cli
+    description: "Go CLI project with cobra, viper, and GitHub Actions CI"
+    languages: [go]
+    url: https://github.com/jean3690/go-cli-template
+    version: "0.1.0"
+    author: jean3690
+    tags: [go, cli, cobra, tool]
+
+  - name: python-script
+    description: "Python script template with argparse, logging, and pytest"
+    languages: [python]
+    url: https://github.com/jean3690/python-script-template
+    version: "0.1.0"
+    author: jean3690
+    tags: [python, script, cli]
+
+  - name: rust-cli
+    description: "Rust CLI template with clap, anyhow, and tracing"
+    languages: [rust]
+    url: https://github.com/jean3690/rust-cli-template
+    version: "0.1.0"
+    author: jean3690
+    tags: [rust, cli, clap, tool]
+
+# Schema version — do not modify.
+apiVersion: v1
