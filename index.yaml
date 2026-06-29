@@ -12,37 +12,111 @@
 #   tags        — keywords for search (optional)
 
 templates:
-  - name: go-service
-    description: "Go microservice with chi router, structured logging, and config"
+  # ===== Go =====
+  - name: go-blueprint
+    description: "Popular Go project scaffold — spin up a Go app with Chi, Gin, Echo, or Fiber"
     languages: [go]
-    url: https://github.com/jean3690/go-service-template
-    version: "0.1.0"
-    author: jean3690
-    tags: [go, microservice, api, chi]
+    url: https://github.com/Melkeydev/go-blueprint
+    version: "0.7.7"
+    author: Melkeydev
+    tags: [go, web, chi, gin, echo, fiber, scaffold]
 
-  - name: go-cli
-    description: "Go CLI project with cobra, viper, and GitHub Actions CI"
+  - name: go-standard-layout
+    description: "Go project directory layout used by tens of thousands of Go projects"
     languages: [go]
-    url: https://github.com/jean3690/go-cli-template
-    version: "0.1.0"
-    author: jean3690
-    tags: [go, cli, cobra, tool]
+    url: https://github.com/golang-standards/project-layout
+    author: golang-standards
+    tags: [go, layout, structure, best-practices]
 
-  - name: python-script
-    description: "Python script template with argparse, logging, and pytest"
+  - name: go-microservice
+    description: "Production-ready Go microservice scaffold with observability built in"
+    languages: [go]
+    url: https://github.com/asilverman/go-template-service
+    author: asilverman
+    tags: [go, microservice, observability, production]
+
+  # ===== Python =====
+  - name: full-stack-fastapi
+    description: "FastAPI + React + PostgreSQL full-stack template by FastAPI's creator (43k ⭐)"
+    languages: [python, typescript]
+    url: https://github.com/fastapi/full-stack-fastapi-template
+    version: "0.7.1"
+    author: tiangolo
+    tags: [python, fastapi, react, postgresql, fullstack, docker]
+
+  - name: hypermodern-python
+    description: "Modern Python package with Nox, Poetry, pytest, mypy, pre-commit, and CI/CD"
     languages: [python]
-    url: https://github.com/jean3690/python-script-template
-    version: "0.1.0"
-    author: jean3690
-    tags: [python, script, cli]
+    url: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+    author: cjolowicz
+    tags: [python, package, modern, testing, ci, cookiecutter]
 
-  - name: rust-cli
-    description: "Rust CLI template with clap, anyhow, and tracing"
+  - name: python-package
+    description: "Classic Python package template by Cookiecutter's co-creator — pytest, CI, docs"
+    languages: [python]
+    url: https://github.com/audreyfeldroy/cookiecutter-pypackage
+    author: audreyfeldroy
+    tags: [python, package, pytest, pypi, cookiecutter]
+
+  - name: python-click-cli
+    description: "Click-based Python CLI tool template by Simon Willison — pytest, GitHub Actions"
+    languages: [python]
+    url: https://github.com/simonw/click-app
+    author: simonw
+    tags: [python, cli, click, tool]
+
+  - name: python-data-science
+    description: "Opinionated data science project structure — notebooks, models, reports, raw data"
+    languages: [python]
+    url: https://github.com/drivendata/cookiecutter-data-science
+    author: drivendata
+    tags: [python, data-science, ml, jupyter, analytics]
+
+  # ===== TypeScript / Node.js =====
+  - name: create-t3-app
+    description: "Full-stack typesafe Next.js app — tRPC, Tailwind, Prisma, NextAuth (29k ⭐)"
+    languages: [typescript]
+    url: https://github.com/t3-oss/create-t3-app
+    author: t3-oss
+    tags: [typescript, nextjs, trpc, tailwind, prisma, fullstack]
+
+  - name: bulletproof-react
+    description: "Production-grade React architecture — scalable, tested, typed patterns (35k ⭐)"
+    languages: [typescript]
+    url: https://github.com/alan2207/bulletproof-react
+    author: alan2207
+    tags: [typescript, react, architecture, best-practices, testing]
+
+  - name: nestjs-starter
+    description: "NestJS production-ready REST API — TypeORM, JWT auth, Swagger, Docker"
+    languages: [typescript]
+    url: https://github.com/monstar-lab-oss/nestjs-starter-rest-api
+    author: monstar-lab-oss
+    tags: [typescript, nestjs, api, typeorm, docker, backend]
+
+  # ===== Rust =====
+  - name: rust-template
+    description: "Versatile Rust template — libs, bins, Axum webserver, Wasm, Docker, Nix"
     languages: [rust]
-    url: https://github.com/jean3690/rust-cli-template
-    version: "0.1.0"
-    author: jean3690
-    tags: [rust, cli, clap, tool]
+    url: https://github.com/fission-codes/rust-template
+    author: fission-codes
+    tags: [rust, axum, wasm, docker, nix, library]
+
+  - name: cargo-generate
+    description: "cargo-generate tool — create new Rust projects from git templates with Liquid"
+    languages: [rust]
+    url: https://github.com/cargo-generate/cargo-generate
+    version: "0.23.12"
+    author: cargo-generate
+    tags: [rust, cargo, scaffold, cli, tool]
+
+  # ===== Multi-language / Full-stack =====
+  - name: realworld
+    description: "RealWorld example apps — full-stack Medium clone in 100+ framework combinations (80k ⭐)"
+    languages: [go, python, typescript, rust, java, kotlin, swift, elixir, ruby]
+    url: https://github.com/gothinkster/realworld
+    author: gothinkster
+    tags: [fullstack, demo, tutorial, multi-framework, realworld]
 
 # Schema version — do not modify.
 apiVersion: v1
